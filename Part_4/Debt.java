@@ -12,7 +12,7 @@ public class Debt {
     }
 
     public void waitOneYear(){
-        balance += balance * interestRate;
+        balance *= interestRate;
     }
 
     public static void main(String[] args) {
